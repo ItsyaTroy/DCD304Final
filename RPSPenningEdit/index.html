@@ -49,7 +49,7 @@ h1 {
 }
 
 input:checked ~ div .hand {
-  animation: none !important;
+  -webkit-animation: none !important;
 }
 
 .hand {
@@ -59,7 +59,7 @@ input:checked ~ div .hand {
   position: relative;
   transform: rotate(10deg);
   display: inline-block;
-  animation: handShake 2s infinite;
+  -webkit-animation: handShake 2s infinite;
 }
 
 .hand > div {
@@ -114,7 +114,7 @@ div.arm {
 
 #user-hand {
   transform: rotateY(180deg);
-  animation: handShake2 2s infinite;
+  -webkit-animation: handShake2 2s infinite;
   position: relative;
 }
 
@@ -233,9 +233,9 @@ label {
  -webkit-user-select: none;
 }
 
-label:nth-of-type(1) { animation-delay: -0.00s; }
-label:nth-of-type(2) { animation-delay: -0.15s; }
-label:nth-of-type(3) { animation-delay: -0.30s; }
+label:nth-of-type(1) { -webkit-animation-delay: -0.00s; }
+label:nth-of-type(2) { -webkit-animation-delay: -0.15s; }
+label:nth-of-type(3) { -webkit-animation-delay: -0.30s; }
 
 body {
   background-color:black;
